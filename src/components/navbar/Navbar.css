@@ -1,0 +1,51 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  
+}
+
+header {
+  background-color: white; /* Header background color */
+  color: black;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0d10b6;
+}
+.call-button{
+    background-color: #0d10b6;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+
+.option-list {
+  color: #0f0f0f;
+}
+
+.options {
+  padding-left: 15px;
+  cursor: pointer;
+}
+.tagline {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 100%;
+  }
+  .option-list {
+    display: none;
+  }
+}
