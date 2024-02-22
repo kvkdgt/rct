@@ -1,0 +1,245 @@
+/* Example of Converted CSS */
+.custom-container {
+  margin-left: auto;
+  margin-right: auto;
+  background: #fdf1f6;
+}
+
+.bg-white {
+  /* background-color: #fff; */
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sm\:px-6 {
+  @media (min-width: 640px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.lg\:px-8 {
+  @media (min-width: 1024px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-gray-900 {
+  color: #111827;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.text-gray-700 {
+  color: #4b5563;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-right: 1rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.aspect-ratio-160\/120 {
+  --aspect-ratio-x: 160;
+  --aspect-ratio-y: 120;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: 1.25em;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa.fa-h-16 {
+  height: 1em;
+}
+
+.svg-inline--fa.fa-primary {
+  color: #bd1e59;
+}
+
+.fa-primary {
+  color: #bd1e59;
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.focus-visible\:outline-none:focus {
+  outline: none;
+}
+
+.focus-visible\:ring-2:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.focus-visible\:ring-ring:focus {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #93c5fd;
+}
+
+.focus-visible\:ring-offset-2:focus {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 5px #93c5fd;
+}
+
+.disabled\:pointer-events-none {
+  pointer-events: none;
+}
+
+.disabled\:opacity-50 {
+  opacity: 0.5;
+}
+
+.hover\:bg-primary\/90:hover {
+  background-color: rgba(189, 30, 89, 0.9);
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 0.375rem; /* Equivalent to rounded-md in Tailwind */
+  font-size: 0.875rem; /* Equivalent to text-sm in Tailwind */
+  font-weight: 500; /* Equivalent to font-medium in Tailwind */
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 2.5rem; /* Equivalent to h-10 in Tailwind */
+  padding-left: 1rem; /* Equivalent to px-4 in Tailwind */
+  padding-right: 1rem; /* Equivalent to px-4 in Tailwind */
+  padding-top: 0.5rem; /* Equivalent to py-2 in Tailwind */
+  padding-bottom: 0.5rem; /* Equivalent to py-2 in Tailwind */
+  background-color: #bd1e59; /* Equivalent to bg-[#bd1e59] in Tailwind */
+  color: #fff; /* Equivalent to text-white in Tailwind */
+}
+
+.custom-button:hover {
+  background-color: rgba(
+    189,
+    30,
+    89,
+    0.9
+  ); /* Equivalent to hover:bg-primary/90 in Tailwind */
+}
+
+.custom-button:disabled {
+  pointer-events: none;
+  opacity: 0.5; /* Equivalent to disabled:opacity-50 in Tailwind */
+}
+
+.custom-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5); /* Equivalent to focus-visible:ring-2 in Tailwind */
+}
+
+.custom-button:focus-visible {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #93c5fd; /* Equivalent to focus-visible:ring-ring and focus-visible:ring-offset-2 in Tailwind */
+}
+
+@media only screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

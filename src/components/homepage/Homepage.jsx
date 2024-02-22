@@ -5,6 +5,8 @@ import img1 from "../../assets/1.jpeg";
 import img2 from "../../assets/2.jpeg";
 import img3 from "../../assets/3.jpeg";
 import img4 from "../../assets/4.jpeg";
+import GallerySection from "../GallerySection/GallerySection";
+import Footer from "../footer/Footer";
 
 const Homepage = () => {
   return (
@@ -105,6 +107,8 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+<GallerySection img1={img1}/>
+<Footer/>
       </div>
     </div>
   );

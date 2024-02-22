@@ -39,6 +39,7 @@
  .sub-content-left {
   padding: 25px;
   width: 50%;
+  background: #f1f1fb
  }
  .sub-content {
   display: flex;
@@ -111,6 +112,14 @@
   }
   .left-hero {
     width: 100%;
+  }
+  .sub-content-left {
+    padding: 0;
+    width: 100%;
+   }
+   .sub-content {
+    flex-direction: column;
+    text-align: center;
   }
   .right-hero {
     width: 100%;
